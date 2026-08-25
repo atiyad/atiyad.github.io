@@ -50,11 +50,12 @@ section {
 
 header {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #FAFAF8;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+
 
 .navbar {
     max-width: 1400px;
@@ -64,11 +65,14 @@ header {
     justify-content: space-between;
     align-items: center;
 
+    height: 80px;
     padding: 25px 8%;
 
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
 }
+
+
 
 .navbar a {
   display: inline-block;
@@ -106,6 +110,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
+    font-family: fraunces, serif;
 }
 
 .nav-links {
@@ -115,6 +120,7 @@ header {
 
 .nav-links a {
     font-size: 1rem;
+    font-family: outfit, sans-serif;
     transition: 0.3s ease;
 }
 
