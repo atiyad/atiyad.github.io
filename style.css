@@ -109,7 +109,7 @@ header {
 
 .logo {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     font-family: fraunces, serif;
 }
 
@@ -142,12 +142,12 @@ header {
     background:
         radial-gradient(
             circle at 90% 10%,
-            rgba(238, 190, 215, 0.45),
+            rgba(245, 106, 178, 0.45),
             transparent 35%
         ),
         radial-gradient(
             circle at 10% 90%,
-            rgba(255, 194, 160, 0.35),
+            rgba(250, 155, 104, 0.35),
             transparent 35%
         ),
         #fff8f5;
@@ -184,6 +184,7 @@ header {
 .hero-description {
     max-width: 650px;
     font-size: 1.1rem;
+    font-family: outfit, sans-serif;
     color: #7A5F7F;
     margin-bottom: 35px;
 }
@@ -293,12 +294,12 @@ header {
     background:
         radial-gradient(
             circle at 90% 10%,
-            rgba(207, 190, 238, 0.45),
+            rgba(146, 89, 252, 0.45),
             transparent 35%
         ),
         radial-gradient(
             circle at 10% 90%,
-            rgba(160, 185, 255, 0.35),
+            rgba(129, 161, 252, 0.35),
             transparent 35%
         ),
         #fff8f5;
@@ -714,4 +715,25 @@ footer {
         padding: 60px 6%;
     }
 
+}
+
+/* =========================================
+   PROJECT CAROUSEL
+========================================= */
+
+.projects-carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.projects-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.projects-track .project-card {
+    min-width: 100%;
+    margin: 0;
+    flex-shrink: 0;
 }
